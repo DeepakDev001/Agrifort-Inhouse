@@ -63,7 +63,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="relative w-full h-[60vh] min-h-[600px] flex items-center overflow-hidden">
+    <section className="relative w-full h-[30vh] min-h-[600px] flex items-center overflow-hidden">
       {/* Background Images - Right Side with Carousel Effect */}
       <div className="absolute inset-0 z-0">
         {backgroundImages.map((image, index) => (
@@ -108,8 +108,8 @@ export default function HeroSection() {
                   className="flex flex-col items-center group cursor-pointer animate-slide-up"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white/20 backdrop-blur-sm border-2 border-white/30 flex items-center justify-center group-hover:bg-white/30 group-hover:scale-110 transition-all duration-300">
-                    <Icon className="w-8 h-8 md:w-10 md:h-10 text-white" />
+                  <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-white/20 backdrop-blur-sm border-2 border-white/30 flex items-center justify-center group-hover:bg-white/30 group-hover:scale-110 transition-all duration-300">
+                    <Icon className="w-7 h-7 md:w-8 md:h-8 text-white" />
                   </div>
                   <span className="text-white text-xs md:text-sm font-medium mt-2 text-center max-w-[100px]">
                     {feature.label}
